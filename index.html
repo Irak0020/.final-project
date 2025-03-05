@@ -3,45 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Midterm Project</title>
+    <title>Lord's Web page</title>
     <link rel="stylesheet" href="./main.css">
 </head>
 <body>
-    <header>
-        <img src="images/header.jpg" alt="Website Banner">
-        <h1 class="title">My Midterm Website</h1>
-    </header>
+    <!--Header Section-->
+    <img src="./images/lone-starfish-wide.jpg" alt="starfish wide">
+<div class="title">
+    <h1>Welcome to Lord'Web page</h1>
+
+
+</div>
+
+<!--Artical Section-->
+<article>
+    <img src="./images/lone-starfish.jpg" alt="Background picture">
+    <p>My name is Lord, I am a student at Algonquin college studying Interactive Media Design. In this Article i wanna share a little about my journey in web develpment and my passion for design.</p>
+    <p>My Main interest is creating Interactive and dynamic websites that provide user experiences. I love exploring new trends in web design, including responsive layouts, creating use of colors,and modern typography.</p>
     
-    <main>
-        <article>
-            <img src="images/article.jpg" alt="Article Illustration" class="article-img">
-            <p>This website is designed as part of my midterm project. It showcases structured content, proper styling, and accessibility.</p>
-        </article>
-        
-        <section class="facts">
-            <h2>Interesting Facts About Me</h2>
-            <ul>
-                <li>I love web development and design.</li>
-                <li>My favorite food is rice, potatoes, and beans.</li>
-                <li>I enjoy swimming as a cardio activity.</li>
-            </ul>
-        </section>
-        
-        <section class="contact-form">
-            <h2>Get in Touch</h2>
-            <form>
-                <label for="name">Full Name:</label>
-                <input type="text" id="name" name="name" required>
-                
-                <label for="email">Email Address:</label>
-                <input type="email" id="email" name="email" required>
-                
-                <label for="message">Your Message:</label>
-                <textarea id="message" name="message" required></textarea>
-                
-                <button type="submit">Send Message</button>
-            </form>
-        </section>
-    </main>
+    
+</article>
+
+<!-- Fact Section-->
+ <section class="facts">
+    <h2>Fun Facts About Me </h2>
+    <ul>
+        <li>I speak three languages: French, Kirundi , and English. Growing up in Burundi, I learned Kirundi as my native language of my family, but also a big part of my cultural identity. French, which is widely spoken in many parts of Africs, became my second language  as I went through the education system. As for English, My parents decided to put me in an English system where I spent 4 years studying in an American system and cambridge system too.  </li>
+        <li>I am passionate about coding and want to create innovative websites. My interest in coding began when i was first inroduced to computer programming in my high school, and i quickly realized that it was something I wanted to pursue professionally  </li>
+    <li>My favorite foos is rice, potatoes, and beans-simple, but nutritions! These foods are more than staples inmy diet; they hold sentimental value for me </li>
+    <li>I am a big fan of swimming and try to stay active everyday. Swimming has always been my go-to form of exercise. It's a full body workout that helps me to stay in shap, it helps me de-stress and clear my mind. </li>
+   <li>Life is a journey filled with ups and downs, but I try to stay positive and focus on growth. Every challenge is an opportunity to learn, and I believe that staying curious is key to overcoming obstacles. I am always looking for ways to improve myself and make the most of every experience </li>
+
+
+</section>
+</ul>
+<!-- Contact  Section-->
+ <section class="contact-form ">
+<h2>Contact Me</h2>
+<form action="submit_form.php" method="post">
+
+    <label for="name">Your Name</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+    
+    <label for="email">Your Email</label>
+    <input type="email" id="email" placeholder="Enter your email" required>
+    
+    <label for="message">Your Message</label>
+    <textarea name="message" id="message" placeholder="write your message here " required></textarea>
+    <button type="submit">Send Message</button>
+    
+    
+    
+
+</form>
+</section>
+    
+
+
 </body>
+
 </html>
