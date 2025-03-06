@@ -1,65 +1,72 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lord's Web page</title>
+    <title>Lord Life's Starfish</title>
     <link rel="stylesheet" href="./main.css">
 </head>
 <body>
-    <!--Header Section-->
-    <img src="./images/lone-starfish-wide.jpg" alt="starfish wide">
-<div class="title">
-    <h1>Welcome to Lord'Web page</h1>
-
-
-</div>
-
-<!--Artical Section-->
-<article>
-    <img src="./images/lone-starfish.jpg" alt="Background picture">
-    <p>My name is Lord, I am a student at Algonquin college studying Interactive Media Design. In this Article i wanna share a little about my journey in web develpment and my passion for design.</p>
-    <p>My Main interest is creating Interactive and dynamic websites that provide user experiences. I love exploring new trends in web design, including responsive layouts, creating use of colors,and modern typography.</p>
-    
-    
-</article>
-
-<!-- Fact Section-->
- <section class="facts">
-    <h2>Fun Facts About Me </h2>
-    <ul>
-        <li>I speak three languages: French, Kirundi , and English. Growing up in Burundi, I learned Kirundi as my native language of my family, but also a big part of my cultural identity. French, which is widely spoken in many parts of Africs, became my second language  as I went through the education system. As for English, My parents decided to put me in an English system where I spent 4 years studying in an American system and cambridge system too.  </li>
-        <li>I am passionate about coding and want to create innovative websites. My interest in coding began when i was first inroduced to computer programming in my high school, and i quickly realized that it was something I wanted to pursue professionally  </li>
-    <li>My favorite foos is rice, potatoes, and beans-simple, but nutritions! These foods are more than staples inmy diet; they hold sentimental value for me </li>
-    <li>I am a big fan of swimming and try to stay active everyday. Swimming has always been my go-to form of exercise. It's a full body workout that helps me to stay in shap, it helps me de-stress and clear my mind. </li>
-   <li>Life is a journey filled with ups and downs, but I try to stay positive and focus on growth. Every challenge is an opportunity to learn, and I believe that staying curious is key to overcoming obstacles. I am always looking for ways to improve myself and make the most of every experience </li>
-
-
-</section>
-</ul>
-<!-- Contact  Section-->
- <section class="contact-form ">
-<h2>Contact Me</h2>
-<form action="submit_form.php" method="post">
-
-    <label for="name">Your Name</label>
-    <input type="text" id="name" name="name" placeholder="Enter your name" required>
-    
-    <label for="email">Your Email</label>
-    <input type="email" id="email" placeholder="Enter your email" required>
-    
-    <label for="message">Your Message</label>
-    <textarea name="message" id="message" placeholder="write your message here " required></textarea>
-    <button type="submit">Send Message</button>
-    
-    
-    
-
-</form>
-</section>
-    
-
-
+    <header>
+        <div class="header-content">
+            <img src="./images/header pic.jpg" alt="A magnificent starfish resting on the shore">
+            <h1>Lord Life's Starfish</h1>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#story">STORY</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="story" class="intro">
+            <h2>The Journey of a Starfish</h2>
+            <div class="content">
+                <img src="./images/background pic.jpg" alt="A tiny starfish in the ocean">
+                <p>Starfish are more than just sea creatures; they are symbols of resilience, transformation, and beauty. Found in oceans worldwide, these incredible echinoderms regenerate lost limbs, adapt to various marine environments, and move gracefully across the seafloor. The story of a starfish is one of survival, wonder, and mystery, much like the journey of life itself.</p>
+            </div>
+        </section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <section class="facts">
+            <h2>Fascinating Facts About Starfish</h2>
+            <ul>
+                <li>Starfish can regenerate lost arms, making them one of the most resilient sea creatures.</li>
+                <li>They have no brain or blood, but they use seawater to circulate nutrients.</li>
+                <li>There are over 2,000 species of starfish found in oceans around the world.</li>
+                <li>Some starfish can change their gender during their lifetime.</li>
+            </ul>
+        </section>
+        <section class="contact" id="contact">
+            <h2>Contact Lord Life to Learn More</h2>
+            <form>
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <fieldset>
+                    <legend>Would you like to explore the world of starfish?</legend>
+                    <label><input type="radio" name="visit" value="yes"> Yes</label>
+                    <label><input type="radio" name="visit" value="no"> No</label>
+                    <label><input type="radio" name="visit" value="maybe"> Maybe</label>
+                </fieldset>
+                
+                <button type="submit">SEND</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Lord Life's Starfish.</p>
+    </footer>
 </body>
-
 </html>
