@@ -1,42 +1,37 @@
-/* General Styles */
-body {
-    font-family: "stevie-sans", sans-serif;
-    margin: auto;
-    background: #f0e5d8;
-    max-width: 100%;
+/*General styles for lord life starfish website*/
+body{
+    font-family: "stevie-sans" sans-serif;
+margin: auto;
+background: turquoise;
+max-width: 100%;
 }
-
-/* Header */
-header {
-    position: relative;
-    color: #2c3e50;
-}
-
-.header-content img {
-    width: 104%;
+/*Header section for Lord life startfish*/
+header{position: relative;
+color: bisque;}
+/*Irakoze Banner image for Lord life*/
+.irakoze-banner img{
+    width: 104% ;
     height: 320px;
     object-fit: cover;
 }
-
-.header-content h1 {
+.irakoze-banner h1{
     position: absolute;
     top: 48%;
-    left: 33%;
+    left: 32%;
     font-size: 3rem;
-    color: #34495e;
+    color: beige;
 }
-
-/* Navigation */
-nav {
-    background-color: #1abc9c;
+/*Navigation bar */
+nav{
+    background-color: rgb(10, 127, 156);
     display: flex;
     justify-content: center;
     padding: 10px 0px;
     font-size: 1.5rem;
     width: 100%;
 }
-
-nav ul {
+/*Family Menu list for lord life's navigation*/
+.family-menu{
     list-style: none;
     margin: 0;
     padding: 0;
@@ -44,109 +39,112 @@ nav ul {
     justify-content: center;
     width: 100%;
 }
-
-nav ul li {
+/*styling the individual family links*/
+.family-menu li{
     flex: 1;
     text-align: center;
 }
-
-nav ul li a {
-    background: #1abc9c;
-    color: #ffffff;
+/*links for family Menu (My angel Dad)*/
+.family-menu li a {
+    background:  lightseagreen ;
+    color: azure;
     text-decoration: none;
     font-weight: bold;
     padding: 10px 20px;
     display: block;
-    border-right: 1px solid #16a085;
-}
+    border-right: 1px solid  lightseagreen;
 
-nav ul li:last-child a {
-    border-right: none;
 }
-
-nav ul li a:hover {
-    background-color: #16a085;
+/*styling for the last item in the family Menu*/
+.family-menu li a:hover {
+    background-color: lightseagreen;
+    
 }
-
-/* Main Content */
-main {
+/*Main content for lord life startfish*/
+main{
     margin: auto;
-    background: #f1c40f;
+    background: lightskyblue;
     padding: 20px;
+   
 }
-
-.intro .content {
+/*Section for mom'journey and siblings'Tale*/
+.mom-journey .siblings-tale{
     align-items: center;
-}
 
-.intro img {
+}
+/*mom's journey Image for family stort*/
+.mom-journey img{
     width: 150px;
     margin-right: 20px;
     float: left;
 }
-
-.facts ul {
-    padding-left: 20px;
-}
-
-.contact form {
+/*contact form reaching out to lord life*/
+.reach-family form{
     display: flex;
     flex-direction: column;
-    border: 2px solid #e74c3c;
+    border: 2px solid lightseagreen ;
     padding: 20px;
 }
-
-.contact label {
-    font-weight: bold;
-    margin-top: 10px;
-}
-
-.contact input,
-.contact textarea {
+/*input and textarea fields for reaching out lord life*/
+.reach-family input,
+.reach-family textarea {
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid wheat;
     border-radius: 5px;
     width: 98%;
     resize: none;
 }
-
-fieldset {
+/*section for radio buttons*/
+fieldset{
     border: none;
     margin-top: 10px;
     display: flex;
     gap: 15px;
     align-items: center;
 }
-
-fieldset label {
+/*styling for the rado button labels in the contact form*/
+fieldset label{
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
 }
-
-button {
-    width: 80px;
+/*submit button for reaching out lord life*/
+button{
+    width:80px ;
     margin-top: 15px;
     padding: 10px;
-    background-color: #3498db;
-    color: #ffffff;
-    border: 1px solid #2980b9;
+    background-color: blanchedalmond;
+    color: aliceblue;
+    border: 1px solid lightskyblue;
     cursor: pointer;
 }
 
+/*Hover Effect for the submit button*/
 button:hover {
-    background-color: #2980b9;
+    background-color: lightskyblue;
     padding: 20px 20px;
-    border: 2px solid #2c3e50;
+    border: 2px solid dimgray;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 15px;
 }
 
-/* Footer */
-footer {
+
+/*Footer section for lord life starfish website*/
+footer{
     text-align: right;
     padding: 20px 40px;
-    background: #1abc9c;
-    color: white;
+    background-color: lightseagreen;
+    color: antiquewhite;
     margin-bottom: 20px;
 }
+
+
+
+
+
+
+
+
+
+
+/*footer section for lord life starfish website*/
